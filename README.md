@@ -1,12 +1,46 @@
-# React + Vite
+# 🌿 AgroFix - User Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the user-facing frontend of **AgroFix**, a modern e-commerce platform for agricultural products. Built with **React**, **Material UI**, and integrated with a robust Express backend.
 
-Currently, two official plugins are available:
+# Deployment Link:
+https://agrofix-user-frontend.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛒 Browse and view products
+- 📄 Detailed product pages
+- ➕ Add items to cart
+- 🧺 Shopping cart with quantity controls
+- ✅ Checkout flow (connected to backend)
+- 🔐 User authentication (Register/Login)
+- 📦 View orders (if applicable)
+- In the home page user can explore the products and add products to the cart
+- In the cart page user can view the products in the cart and place order
+- In the orders page user can see the current orders and their status
+
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: React, React Router, Material UI (MUI)
+- **HTTP Client**: Fetch API
+- **Backend**: [AgroFix Express API](https://agrofix-backend-one.vercel.app/api)
+- **Deployment**: Vercel
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/agrofix-user-frontend.git
+cd agrofix-user-frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
