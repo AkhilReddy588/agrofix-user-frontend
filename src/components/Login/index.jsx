@@ -40,7 +40,7 @@ const Login = () => {
       }
 
       const data = await response.json()
-      Cookies.set('token', data.token, { expires: 30, path: '' })
+      Cookies.set('token', data.token, { expires: 7, path: '' })
 
       console.log('User logged in successfully:', data)
 
